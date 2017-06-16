@@ -1,4 +1,4 @@
-title: generic-python-iterating-dictionaries
+title: Looping over dictionaries with Python
 hero_image: images/banner.png
 description: generic-python-iterating-dictionaries description
 original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
@@ -9,4 +9,4 @@ ingredient: false
 interests: "jokes/pranks, sports, art/design, photography, games, outside/weather/nature, space, animals, music/sound"
 technologies: "scratch, python, html/css, micro:bit"
 steps:
-  - title: Step one
+  - title: Looping over dictionaries with Python

@@ -11,7 +11,7 @@ band = {
 	}
 ```
 
-You can iterat over it with a `for` loop like this:
+You can iterate over it with a `for` loop like this:
 
 ```python
 for member in band:

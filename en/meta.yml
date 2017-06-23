@@ -6,7 +6,7 @@ theme: cc-prototype
 duration: 1
 listed: false
 ingredient: true
-interests: "jokes/pranks, sports, art/design, photography, games, outside/weather/nature, space, animals, music/sound"
-technologies: "scratch, python, html/css, micro:bit"
+interests: ""
+technologies: "python"
 steps:
   - title: Looping over dictionaries with Python

@@ -1,8 +1,8 @@
 Like any data structure in Python, you can iterate over dictionaries.
 
-Remember, the order of keys in a dictionary can be unpredictable.
+- Remember, the order of keys in a dictionary can be unpredictable.
 
-If you simply iterate over a dictionary with a `for` loop, you will only be iterating over the keys.
+- If you simply iterate over a dictionary with a `for` loop, you will only be iterating over the keys.
 
 Take this dictionary for example:
 

@@ -5,7 +5,7 @@ original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
 theme: cc-prototype
 duration: 1
 listed: false
-ingredient: false
+ingredient: true
 interests: "jokes/pranks, sports, art/design, photography, games, outside/weather/nature, space, animals, music/sound"
 technologies: "scratch, python, html/css, micro:bit"
 steps:

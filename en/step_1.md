@@ -1,9 +1,10 @@
 Like any data structure in Python, you can iterate over dictionaries.
 
 - Remember, the order of keys in a dictionary can be unpredictable.
-- If you simply iterate over a dictionary with a `for` loop, then you will only be iterating over the keys.
 
-	With the dictionary:
+- If you simply iterate over a dictionary with a `for` loop, you will only be iterating over the keys.
+
+Take this dictionary for example:
 
 	```python
 	band = {
@@ -21,7 +22,7 @@ Like any data structure in Python, you can iterate over dictionaries.
 		print(member)
 	```
 
-- This will produce:
+  This will produce:
 
 	```python
 	>>> ringo
@@ -30,14 +31,14 @@ Like any data structure in Python, you can iterate over dictionaries.
 	paul
 	```
 
-- If you want to get the keys and values, then you'll need to specify this in your `for` loop
+- If you want to get the keys and values, you'll need to specify this in your `for` loop
 
 	```python
 	for member, instrument in band.items():
 		print(member, '-', instrument)
 	```
 	
-	This would give the following:
+	This will give the following:
 	
 	```python
 	>>> ringo - base guitar

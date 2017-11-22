@@ -11,7 +11,7 @@ band = {
   'john' : 'rhythm guitar',
   'paul' : 'base guitar',
   'george' : 'lead guitar',
-  'ringo' : 'base guitar'
+  'ringo' : 'bass guitar'
   }
 ```
 

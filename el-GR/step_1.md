@@ -1,28 +1,28 @@
-Like any data structure in Python, you can iterate over dictionaries.
+Όπως σε κάθε δομή δεδομένων στην Python, μπορείς να σαρώσεις (iterate) λεξικά.
 
-- Remember, the order of keys in a dictionary can be unpredictable.
+- Να θυμάσαι ότι η σειρά των κλειδιών σε ένα λεξικό μπορεί να είναι απρόβλεπτη.
 
-- If you simply iterate over a dictionary with a `for` loop, you will only be iterating over the keys.
+- Αν απλώς σαρώσεις ένα λεξικό με βρόχο `for`, αυτό θα έχει ως αποτέλεσμα να εμφανιστούν τα κλειδιά.
 
-Take this dictionary for example:
+Δες αυτό το λεξικό για παράδειγμα:
 
 ```python
 band = {
-  'john' : 'rhythm guitar',
-  'paul' : 'base guitar',
-  'george' : 'lead guitar',
-  'ringo' : 'bass guitar'
-  }
+  'john': 'ρυθμική κιθάρα',
+  'paul': 'μπάσο',
+  'george': 'σόλο κιθάρα',
+  'ringo': 'μπάσο'
+}
 ```
 
-- You can iterate over it with a `for` loop like this:
+- Μπορείς να το σαρώσεις με ένα βρόχο `for` όπως παρακάτω:
 
 ```python
 for member in band:
   print(member)
 ```
 
-  This will produce:
+  Αυτό θα εμφανίσει:
 
 ```python
 >>> ringo
@@ -31,7 +31,7 @@ george
 paul
 ```
 
-- If you want to get the keys and values, you'll need to specify this in your `for` loop
+- Αν θέλεις να εμφανιστούν και τα κλειδιά και οι τιμές, θα πρέπει να το ξεκαθαρίσεις στο βρόχο `for`
 
 ```python
 for member, instrument in band.items():
@@ -39,11 +39,11 @@ for member, instrument in band.items():
 ```
 
 
-    This will give the following:
+    Αυτό θα εμφανίσει το παρακάτω αποτέλεσμα:
 
 ```python
->>> ringo - base guitar
-john - rhythm guitar
-george - lead guitar
-paul - base guitar
+>>> ringo - μπάσο
+john - ρυθμική κιθάρα
+george - σόλο κιθάρα
+paul - μπάσο
 ```

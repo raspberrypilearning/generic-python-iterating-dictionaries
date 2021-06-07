@@ -25,10 +25,10 @@ for member in band:
   Αυτό θα εμφανίσει:
 
 ```python
->>> ringo
-john
-george
+>>> john
 paul
+george
+ringo
 ```
 
 - Αν θέλεις να εμφανιστούν και τα κλειδιά και οι τιμές, θα πρέπει να το ξεκαθαρίσεις στο βρόχο `for`
@@ -42,8 +42,8 @@ for member, instrument in band.items():
     Αυτό θα εμφανίσει το παρακάτω αποτέλεσμα:
 
 ```python
->>> ringo - μπάσο
-john - ρυθμική κιθάρα
-george - σόλο κιθάρα
+>>> john - ρυθμική κιθάρα
 paul - μπάσο
+george - σόλο κιθάρα
+ringo - μπάσο
 ```

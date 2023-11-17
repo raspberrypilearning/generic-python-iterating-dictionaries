@@ -8,10 +8,10 @@ Toma este diccionario como ejemplo:
 
 ```python
 banda = {
-  'john': 'guitarra rítmica',
-  'paul': 'guitarra base',
-  'george': 'guitarra solista',
-  'ringo': 'bajo'
+  'john' : 'guitarra rítmica',
+  'paul' : 'guitarra base',
+  'george' : 'guitarra solista',
+  'ringo' : 'bajo'
 }
 ```
 
@@ -34,7 +34,7 @@ paul
 - Si deseas obtener las llaves y los valores, deberás especificar esto en tu bucle `for`
 
 ```python
-for miembro, instrumento in elementos.banda():
+for miembro, instrumento in banda.items():
   print(miembro, '-', instrumento)
 ```
 
